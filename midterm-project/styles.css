@@ -1,0 +1,227 @@
+/* Brendan Thoele, 11.2.2024, stylesheet */
+
+body {
+    font-size: 1.2em;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    padding-top: 0px;
+    color: black;
+}
+
+h1 {
+    line-height: .90em;
+}
+
+#wrapper {
+    width: 60vw;
+    max-width: 50em;
+    min-width: 18em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3em;
+    background-color: goldenrod;
+    border-radius: .5em .5em 0em 0em;
+    padding: 1em;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 2em;
+    margin-top: 2em;
+}
+
+header h2 {
+    margin: 0px;
+    padding: 0px;
+    font-size: 1.1em;
+}
+
+nav {
+    font-size: 1.1em;
+    width: 100%;
+    border: black solid 3px;
+    background-color: darkgoldenrod;
+}
+
+ul {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 0px;
+}
+
+li {
+    display: inline;
+    margin: .5em;
+}
+
+li a {
+    text-decoration: none;
+    color: black;
+}
+
+li a:hover {
+    color: white;
+    background-color: #396bcf;
+}
+
+main {
+    line-height: 1.6em;
+    font-size: 1.2em;
+    font-family: Calibri, sans-serif;
+    font-weight: normal;
+    max-width: 45em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2em;
+    letter-spacing: .1px;
+    padding: 1em;
+}
+
+p {
+    margin-top: 1.5em;
+}
+
+.container {
+    max-width: 20em;
+    width: 50vw;
+    min-width: 10em;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: solid black 3px;
+    border-radius: 1em 1em 0em 0em;
+    margin-bottom: 3em;
+    background-color: #7e97c9;
+}
+
+.frame {
+    min-width: 10em;
+    max-width: 20em;
+    width: 50vw;
+    height: 50vw;
+    max-height: 20em;
+    min-height: 10em;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    border-radius: 1em 1em 0em 0em;
+}
+
+footer {
+    background-color: darkgoldenrod;
+    border: solid black;
+    padding: 1.1em;
+    margin-top: 3em;
+    line-height: 1.5em;
+}
+
+footer a {
+    color: #396bcf;
+}
+
+#selected {
+    color: whitesmoke;
+    font-size: 1.2em;
+    text-shadow: 0px 3px #396bcf;
+    background-color: transparent;
+}
+
+#center {
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+.project-image {
+    width: 100%;
+    height: 100%;
+    border-bottom: solid black 7px;
+}
+
+.port-h3 {
+    font-family:'Courier New', Courier, monospace;
+    margin: 1em;
+    margin-top: 1em;
+    line-height: .8em;
+}
+
+.resume-list {
+    padding: 0em 1em;
+    margin-bottom: .5em;
+    margin-top: 0px;
+}
+
+.resume-list li {
+    display: list-item;
+    text-align: left;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.resume-h3 {
+    font-family:'Courier New', Courier, monospace;
+    line-height: 1em;
+    text-align: center;
+    margin-bottom: .75em;
+    margin-top: 2em;
+}
+
+#resume-h3-2 {
+    font-family:'Courier New', Courier, monospace;
+    line-height: 1em;
+    text-align: center;
+    margin-bottom: .75em;
+}
+
+.resume-p {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.work-p {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 1em;
+    border: solid black;
+}
+
+#small-text {
+    text-align: center;
+    font-size: .75em;
+    margin-top: 0px;
+}
+
+#resume-img {
+    border-radius: 1em;
+    height: 10em;
+    border: solid black;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#resume-p2 {
+    text-align: center;
+    margin-bottom: .5em;
+    margin-top: 3em;
+}
+
+ol li {
+    display: list-item;
+}
+
+#icon-container {
+    display: flex;
+    justify-content: space-evenly;
+    width: 10em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4em;
+}
+
+.icon {
+    width: 2.5em;
+    border-radius: 0px;
+}
