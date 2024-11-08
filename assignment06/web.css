@@ -1,0 +1,113 @@
+/* Brendan Thoele, 11.8.2024 */
+
+body {
+    background-color: #0194b5;
+    background: linear-gradient(#FFFFFF, #0194B5);
+    color: #555555;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#wrapper {
+    width: 80%;
+    min-width: 960px;
+    max-width: 2048px;
+    background-color: #FFFFFF;
+    box-shadow: 3px 3px #333333;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main {
+    padding: 20px;
+    padding-top: 1px;
+    display: block;
+}
+
+h1 {
+    background-color: #29485D;
+    color: #FFFFFF;
+    margin-bottom: 0;
+    margin-top: 0px;
+    background-image: url(./homework-media-files/logo.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    font-family: Georgia, 'Times New Roman', serif;
+    height: 60px;
+    padding-top: 15px;
+    text-align: center;
+}
+  
+nav {
+    background-color: #FFF;
+    font-weight: bold;
+    padding: 1em;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+#homehero {
+    background-image: url(./homework-media-files/homehero.jpg);
+    background-repeat: no-repeat;
+    height: 400px;
+    background-size: 100% 100%;
+}
+
+#trackshero {
+    background-image: url(./homework-media-files/trackshero.jpg);
+    background-repeat: no-repeat;
+    height: 400px;
+    background-size: 100% 100%;
+}
+
+#facultyhero {
+    background-image: url(./homework-media-files/facultyhero.jpg);
+    background-repeat: no-repeat;
+    height: 400px;
+    background-size: 100% 100%;
+}
+
+h2 {
+    color: #407386;
+    font-family: Georgia, 'Times New Roman', serif;
+    text-shadow: 1px 1px #ccc;
+}
+
+dt {
+    color: #0194B5;
+}
+  
+.web {
+    color: #0194B5;
+}
+
+h3 {
+    font-family: Georgia, 'Times New Roman', serif;
+    color: #29485D;
+}
+
+ul {
+    list-style-image: url(./homework\ media\ files/marker.gif);
+}
+
+li {
+    line-height: 1.5;
+}
+
+footer {
+    font-size: 75%;
+    font-style: italic;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', serif;
+    padding: 2em;
+}
+
+.web {
+    font-weight: bold;
+}
+
+#contact {
+    font-size: 90%;
+}
