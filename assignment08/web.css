@@ -1,0 +1,232 @@
+/* Brendan Thoele, 11.19.2024 */
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+  background-color: #eaeaea;
+  background: linear-gradient(#FFFFFF, #0194B5);
+  color: #555555;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#wrapper {
+  /*width: 80%; */
+  background-color: #FFFFFF;
+  /*box-shadow: 3px 3px #333333;*/
+	/*border: #000033 solid 1px; */
+}
+
+header {
+	text-align: center;
+	padding-top: .5em;
+  padding-bottom: .5em;
+	background-color: #29485d;
+	color: #ffffff;
+  letter-spacing: .25em;
+}
+
+h1 {
+	padding-top: 0px;
+	margin-top: 0px;
+  font-family: Georgia, 'Times New Roman', serif;
+  height: 60px;
+  text-align: left;
+}
+
+header a {
+	text-decoration: none;
+}
+
+header a:link, header a:visited {
+	color: white;
+}
+
+header a:hover {
+	color: #c6d02f;
+}
+
+main {
+  padding: 20px;
+  padding-top: 1px;
+  display: block;
+	background-color: white;
+	overflow: auto;
+}
+
+  
+nav {
+  background-color: #FFF;
+  font-weight: bold;
+	font-size: 120%;
+  padding: 0;
+  text-align: center;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	font-size: 1.2em;
+  padding-left: 0;
+}
+
+nav li {
+  border-bottom: solid 1px #29485d;
+}
+
+li a:link {
+	color: #0194b5;
+}
+
+li a:visited {
+	color: #29485d;
+}
+
+li a:hover {
+	color: #c6d02f;
+}
+
+#homehero {
+  background-image: url(./homework-media-files/homehero.jpg);
+  background-repeat: no-repeat;
+  height: 400px;
+  background-size: 100% 100%;
+}
+
+#trackshero {
+  background-image: url(./homework-media-files/trackshero.jpg);
+  background-repeat: no-repeat;
+  height: 400px;
+  background-size: 100% 100%;
+}
+
+#facultyhero {
+  background-image: url(./homework-media-files/facultyhero.jpg);
+  background-repeat: no-repeat;
+  height: 400px;
+  background-size: 100% 100%;
+}
+
+h2 {
+  color: #407386;
+  font-family: Georgia, 'Times New Roman', serif;
+  text-shadow: 1px 1px #ccc;
+	text-align: center;
+}
+
+dt {
+  color: #0194B5;
+}
+  
+.web {
+  color: #0194B5;
+}
+
+h3 {
+  font-family: Georgia, 'Times New Roman', serif;
+  color: #29485D;
+}
+
+main ul {
+  list-style-image: url(./homework\ media\ files/marker.gif);
+}
+
+li {
+  line-height: 1.5;
+}
+
+footer {
+  font-size: 75%;
+  font-style: italic;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', serif;
+  padding: 2em;
+  background-color: #ffffff;
+}
+
+.web {
+  font-weight: bold;
+}
+
+#contact {
+  font-size: 90%;
+}
+
+@media (min-width: 800px) {
+  body {
+    background-color: #0194b5;
+    background: linear-gradient(#FFFFFF, #0194B5);
+    background-repeat: no-repeat;
+    color: #555555;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  header {
+    background-image: url(./homework-media-files/logo.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 120px;
+    text-align: left;
+    padding-top: 30px;
+    background-color: #29485d;
+    color: #555555;
+  }
+
+  nav {
+    background-color: white;
+    padding: 1em;
+  }
+
+  nav ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+  }
+
+  nav li {
+    border-bottom: none;
+  }
+
+  section {
+    margin-left: 2em;
+    margin-right: 2em;
+    flex: 1;
+  }
+
+  .flow {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 1250px) {
+  #wrapper {
+    margin: auto;
+    width: 80%;
+    border: 1px solid #000033;
+    box-shadow: 3px 3px 3px #333;
+  }
+
+  header {
+    background-image: url(/homework-media-files/logo.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    text-align: left;
+    height: 120px;
+  }
+
+  h1 {
+    font-size: 2em;
+    letter-spacing: .2em;
+    margin-right: 35%;
+    margin-left: 3em;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+}
