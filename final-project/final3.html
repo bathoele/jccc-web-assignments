@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<!--Brendan Thoele, 12.2.2024, Form-->
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Form Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body id="top">
+    <header>
+      <nav>
+        <ul>
+          <a href="final1.html"><li>Home</li></a>
+          <a href="final2.html"><li>Issue</li></a>
+          <a href="final3.html"><li class="current">Form</li></a>
+          <a href="final4.html"><li>Credits</li></a>
+        </ul>
+      </nav>
+      <h1 id="title">Form</h1>
+      <p id="subtitle">Tell us a little about yourself!</p>
+    </header>
+    <div id="wrapper">
+      <main>
+        <form name="sample" method="post" id="sample" action="demo.php">
+          <div class="form-center">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name">
+            <br><br>
+            <label for="dob">Date of Birth</label>
+            <input type="date" id="dob" name="dob">
+          </div>
+          <br><br>
+          <div class="section">
+            <label>What most closely describes your reading experience?</label>
+            <input type="radio" id="never" name="readingexp" value="I have never read a book voluntarily.">
+            <label for="never">I have never read a book voluntarily.</label><br>
+            <input type="radio" id="a-few" name="readingexp" value="I have read a few books.">
+            <label for="a-few">I have read a few books.</label><br>
+            <input type="radio" id="occasion" name="readingexp" value="I read occasionally.">
+            <label for="occasion">I read occasionally.</label><br>
+            <input type="radio" id="every-day" name="readingexp" value="I read every day.">
+            <label for="every-day">I read every day.</label>
+          </div>
+          <br><br>
+          <div class="section">
+            <label>What genres have you read?</label>
+            <input type="checkbox" id="genre1" name="genres" value="Non-fiction">
+            <label for="genre1">Non-fiction</label><br>
+            <input type="checkbox" id="genre2" name="genres" value="Romance">
+            <label for="genre2">Romance</label><br>
+            <input type="checkbox" id="genre3" name="genres" value="Fantasy/Sci-fi">
+            <label for="genre3">Fantasy/Sci-fi</label><br>
+            <input type="checkbox" id="genre4" name="genres" value="Thriller/Horror">
+            <label for="genre4">Thriller/Horror</label><br>
+            <input type="checkbox" id="genre5" name="genres" value="Mystery">
+            <label for="genre5">Mystery</label><br>
+            <input type="checkbox" id="genre6" name="genres" value="Historical Fiction">
+            <label for="genre6">Historical Fiction</label><br>
+            <input type="checkbox" id="genre7" name="genres" value="Other...">
+            <label for="genre7">Other...</label>
+          </div>
+          <br><br>
+          <div class="form-center">
+            <label for="write-genre">If you had to write a book yourself, what genre would you choose?</label>
+            <select id="write-genre" name="write-genre">
+              <option value="Non-fiction">Non-fiction</option>
+              <option value="Romance">Romance</option>
+              <option value="Fantasy">Fantasy</option>
+              <option value="Science Fiction">Science Fiction</option>
+              <option value="Thriller">Thriller</option>
+              <option value="Horror">Horror</option>
+              <option value="Mystery">Mystery</option>
+              <option value="Historical Fiction">Historical Fiction</option>
+              <option value="Other...">Other...</option>
+            </select>
+          </div>
+          <br><br>
+          <div class="form-center">
+            <label for="fav-book">What is your favorite book?</label><br>
+            <textarea id="fav-book" name="fav-book" rows="3" cols="30" placeholder="Book o_o"></textarea>
+          </div>
+          <br><br>
+          <div class="form-center">
+            <button type="reset">Reset</button>
+            <button type="submit">Submit</button>
+          </div>
+        </form>
+      </main>
+    </div>
+    <footer>
+      <div id="to-top">
+        <a href="#top">
+          <p>Back to top</p>
+        </a>
+      </div>
+      <div>
+        Copyright &copy; 2024 Brendan Thoele
+        <br>
+        <a href="mailto:brendanathoele@gmail.com" target="_blank">brendanathoele@gmail.com</a>
+      </div>
+    </footer>
+  </body>
+</html>
